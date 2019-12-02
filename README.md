@@ -14,4 +14,6 @@ and type following command to run the script after you download the file
 bash ./wpinstall.sh
 or by running this script directly from github by this command
 bash <(curl -Ls https://github.com/MalikMaqsood/wordpress/raw/master/wpinstall2.sh)
+OR
+wget -O - https://github.com/MalikMaqsood/wordpress/raw/master/wpinstall2.sh | bash
 after running the script type teh Ip of your machine in browser and you should see WP installation setup.
