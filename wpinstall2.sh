@@ -2,7 +2,7 @@
 
 clear
 apt update
-apt install vsftpd unzip lamp-server^
+apt install -y vsftpd unzip lamp-server^
 sed -i 's/#write_enable=YES/write_enable=YES/g' /etc/vsftpd.conf
 service vsftpd restart
 # following commands will created wordpress database and wpuser with wpuser123 password >>>
