@@ -31,7 +31,7 @@ sed -i 's/password_here/wpuser123/g' /var/www/html/wp-config.php
 sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 20M/g' /etc/php/7.2/apache2/php.ini
 sed -i 's/max_file_uploads = 20/max_file_uploads = 200/g' /etc/php/7.2/apache2/php.ini
 
-apt install phpmyadmin php-mbstring php-gettext
+apt install -y phpmyadmin php-mbstring php-gettext
 phpenmod mbstring
 a2enmod rewrite
 
