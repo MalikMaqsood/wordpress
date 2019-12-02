@@ -8,4 +8,10 @@ sudo su
 first before running this script.
 your default db will be 'wordpress' with user 'wpuser' and password 'wpuser123'
 you can change this information in script.
-after running the script goto IP of your machine in browser and you should see WP installation setup.
+run this script either by downloading wpinstall2.sh file by using this command
+wget https://github.com/MalikMaqsood/wordpress/raw/master/wpinstall2.sh
+and type following command to run the script after you download the file
+bash ./wpinstall.sh
+or by running this script directly from github by this command
+bash <(curl -Ls https://github.com/MalikMaqsood/wordpress/raw/master/wpinstall2.sh)
+after running the script type teh Ip of your machine in browser and you should see WP installation setup.
